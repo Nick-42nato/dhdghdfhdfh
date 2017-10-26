@@ -7,7 +7,7 @@
 
 
 @media screen and (min-width: 900px){
-	.space-flex{
+	.flex-container{
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
@@ -16,7 +16,7 @@
 	}
 	
 @media screen and (max-width: 890px){
-	.space-flex{
+	.flex-container{
 		display:block;
 		height: inherit;
 		align-items: center;
