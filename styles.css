@@ -5,6 +5,24 @@
 	height: inherit;
 }
 
+
+@media screen and (min-width: 900px){
+	.space-flex{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		height: inherit;
+	}
+	
+@media screen and (max-width: 890px){
+	.space-flex{
+		display:block;
+		height: inherit;
+		align-items: center;
+		justify-content: center;
+	}
+
 .rock_5{
 border: 1px solid #252424;
 transform: rotate(52deg) skewX(-3deg);
